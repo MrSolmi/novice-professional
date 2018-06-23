@@ -2,69 +2,76 @@
 <html>
   <head>
     <title>Сайт СХС</title>
+    <link rel="stylesheet" type="text/css" href="main-css.css">
   </head>
   <body>
 		<h1 align="center">
 			Александр Смуров
 		</h1>
 		<hr/ width="300">
-		<h2>
-			Мои навыки
-		</h2>
-			<ul>
-				<li><a href="https://ru.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a></li>
-				<li><a href="https://ru.wikipedia.org/wiki/C_Sharp" target="_blank">C#</a></li>
-				<li><a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">HTML</a></li>
-				<li><a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS</a></li>
-				<li><a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">JS</a></li>
-			</ul>
-		
-		<h2>
-			Моё расписание занятий
-		</h2>
-		<table border="1">
-			<tr>
-				<td>Понедельник</td>
-				<td>Вторник</td>
-				<td>Среда</td>
-				<td>Четверг</td>
-				<td>Пятница</td>
-			</tr>
-			<tr>
-				<td>ОПИ</td>
-				<td>Физкультура</td>
-				<td>БД</td>
-				<td>Физкультура</td>
-				<td bgcolor="lightgreen">ООП</td>
-			</tr>
-			<tr>
-				<td>Укр. язык</td>
-				<td>ОПИ</td>
-				<td>Иностранный язык</td>
-				<td bgcolor="lightgreen">ООП</td>
-				<td>БД</td>
-			</tr>
-			<tr>
-				<td>Сис. прог.</td>
-				<td>Сис. прог.</td>
-				<td>Сис. прог.</td>
-				<td>ОПИ</td>
-				<td>ОС</td>
-			</tr>
-			<tr>
-				<td>ОС</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-		</table>
 
-		<form method="POST" action="http://vk.com">
-			<input type="email" name="email"><br/>
-			<input type="text" name="name"><br/>
-			<textarea name="message"></textarea><br/>
-			<input type="submit" name="Отправить">
-		</form>
-  </body>
+		<div class="div">
+			<h2>
+				Мои навыки
+			</h2>
+			<ul>
+				<li><a href="https://ru.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a> <progress value="35" max="100"></progress></li>
+				<li><a href="https://ru.wikipedia.org/wiki/C_Sharp" target="_blank" >C#</a> <progress value="45" max="100"></progress></li>
+				<li><a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">HTML</a> <progress value="60" max="100"></progress></li>
+				<li><a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS</a> <progress value="20" max="100"></progress></li>
+				<li><a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">JS</a> <progress value="5" max="100"></progress></li>
+			</ul>
+		</div>
+		<div class="div">
+			<h2>
+				Моё расписание занятий
+			</h2>
+			<table border="1">
+				<tr>
+					<td>Понедельник</td>
+					<td>Вторник</td>
+					<td>Среда</td>
+					<td>Четверг</td>
+					<td>Пятница</td>
+				</tr>
+				<tr>
+					<td>ОПИ</td>
+					<td>Физкультура</td>
+					<td>БД</td>
+					<td>Физкультура</td>
+					<td bgcolor="lightgreen">ООП</td>
+				</tr>
+				<tr>
+					<td>Укр. язык</td>
+					<td>ОПИ</td>
+					<td>Иностранный язык</td>
+					<td bgcolor="lightgreen">ООП</td>
+					<td>БД</td>
+				</tr>
+				<tr>
+					<td>Сис. прог.</td>
+					<td>Сис. прог.</td>
+					<td>Сис. прог.</td>
+					<td>ОПИ</td>
+					<td>ОС</td>
+				</tr>
+				<tr>
+					<td>ОС</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div class="div"
+			<form method="POST" action="http://vk.com">
+				<input type="email" name="email"><br/>
+				<input type="text" name="name"><br/>
+				<textarea name="message"></textarea><br/>
+				<input type="submit" name="Отправить"><br/>
+				<a href="http://t.me/eto_zhe_smurov"><img src="icons/icon-telegram.png" width="50" height="50"></img></a>
+			</form>
+		</div>
+	</body>
 </html>

@@ -1,0 +1,14 @@
+body
+{
+	background-color: White;
+}
+
+.div
+{
+	background-color: LightGrey;
+	margin: 10px;
+	margin-right: 65%;
+	padding-left: 500px;
+	padding: 20px;
+	border-radius: 10px;
+}
