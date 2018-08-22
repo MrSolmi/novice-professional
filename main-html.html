@@ -5,12 +5,13 @@
     <link rel="stylesheet" type="text/css" href="main-css.css">
   </head>
   <body>
+  	<div class="div-page">
 		<h1 align="center">
 			Александр Смуров
 		</h1>
 		<hr/ width="300">
 
-		<div class="div">
+		<div class="div-block">
 			<h2>
 				Мои навыки
 			</h2>
@@ -22,7 +23,7 @@
 				<li><a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">JS</a> <progress value="5" max="100"></progress></li>
 			</ul>
 		</div>
-		<div class="div">
+		<div class="div-block">
 			<h2>
 				Моё расписание занятий
 			</h2>
@@ -64,14 +65,24 @@
 				</tr>
 			</table>
 		</div>
-		<div class="div"
-			<form method="POST" action="http://vk.com">
-				<input type="email" name="email"><br/>
-				<input type="text" name="name"><br/>
-				<textarea name="message"></textarea><br/>
-				<input type="submit" name="Отправить"><br/>
-				<a href="http://t.me/eto_zhe_smurov"><img src="icons/icon-telegram.png" width="50" height="50"></img></a>
-			</form>
+		<div class="div-block">
+			<fieldset>
+				<legend>Отправить комментарий о сайте</legend>
+				<form method="POST" action="http://vk.com">
+					<label for="user-email">E-mail</label>
+					<input id="user-email" type="email" name="email"><br/>
+
+					<label for="user-name">Имя</label>
+					<input id="user-name" type="text" name="name"><br/>
+
+					<label for="user-message">Комментарий</label>
+					<textarea id="user-message" name="message"></textarea><br/>
+					
+					<input type="submit" name="Отправить"><br/>
+					<a href="http://t.me/eto_zhe_smurov"><img src="icons/icon-telegram.png" width="50" height="50"></img></a>
+				</form>
+			</fieldset>
 		</div>
+	</div>
 	</body>
 </html>

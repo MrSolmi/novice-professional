@@ -1,14 +1,20 @@
 body
 {
-	background-color: White;
+	background-color: white;
 }
 
-.div
+.div-page
+{
+	background: green;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.div-block
 {
 	background-color: LightGrey;
-	margin: 10px;
-	margin-right: 65%;
-	padding-left: 500px;
-	padding: 20px;
+	margin: 25px;
+	padding: 10px;
+	padding-left: 20px;
 	border-radius: 10px;
 }
