@@ -1,20 +1,41 @@
 body
 {
-	background-color: white;
+	background-color: #213451;
+	display: inline;
+}
+
+h2
+{
+	margin: 5px;
+}
+
+p
+{
+	font-family: Arial, sans-serif;
+}
+
+.my_name
+{
+	text-decoration: underline;
+	font-family: "Times New Roman", serif;
 }
 
 .div-page
 {
-	background: green;
+	float: left;
+	background-color: #6e819e;
+	border-radius: 10px;
 	width: 60%;
+
+	padding: 10px;
 	margin-left: 20%;
 }
 
 .div-block
 {
-	background-color: LightGrey;
-	margin: 25px;
-	padding: 10px;
-	padding-left: 20px;
+	background-color: #d0aebc;
 	border-radius: 10px;
+
+	padding: 10px;
+	margin: 10px;
 }
