@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body
+{
+	background-color: #efefef;
+	margin: 0px;
+}
+
+h2
+{
+	margin: 5px;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.content
+{
+	width: 80%;
+
+	padding: 10px;
+	margin: 0px auto 0px auto;
+}
+
+.footer
+{
+	background-color: #f6731c;
+	width: 80%;
+	height: 100px;
+
+	padding: 10px;
+	margin: 0px auto 10px auto;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.div-block
+{
+
+	background-color: #ffffff;
+	border-radius: 10px;
+
+	padding: 20px;
+	margin: 10px;
+}
+
+.my_name
+{
+	margin: 10px auto;
+	width: 229px;
+	height: 37px;
+	border-bottom: 3px solid black;
+	font-family: "Neucha", serif;
+}
+
+.skills-and-practice div
+{
+	display: inline-block;
+	vertical-align: top;
+	
+	border: 3px solid #efefef;
+	border-radius: 10px;
+	background-color: #efefef;
+}
+
+#skills
+{
+	width: 300px;
+}
+
+#practice
+{
+	width: 600px;
+}
+
+#about_me img
+{
+	float: left;
+	padding: 10px 20px 5px 10px;
+}
+
+#schedule
+{
+	width: 600px;
+	border-collapse: collapse;
+}
+
+#schedule td, #schedule th
+{
+	padding: 7px 10px 10px 10px;
+
+}
+
+#schedule th {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 90%;
+
+	text-transform: uppercase;
+}
+
+tr.even
+{
+	background-color: #ece2dd;
+}
+
+tr.odd
+{
+	background-color: #f8f1f4;
+}
